@@ -1,4 +1,4 @@
-﻿string? entrada;
+﻿string entrada;
 int num = 0;
 
 Console.WriteLine("Ingrese el numero a invertir: ");
