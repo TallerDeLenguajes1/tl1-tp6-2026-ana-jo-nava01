@@ -25,4 +25,23 @@ if(!int.TryParse(entrada, out num))
     }
 }
 
+//Ejercicio 4
+string cadena, cadena2;
 
+Console.WriteLine("Ingrese la primera cadena: ");
+cadena = Console.ReadLine();
+
+int longitud = cadena.Length;
+
+Console.WriteLine($"Longitud de la cadena: {longitud}");
+
+Console.WriteLine("Ingrese la segunda cadena: ");
+cadena2 = Console.ReadLine();
+
+string concat = cadena + cadena2;
+
+Console.WriteLine($"Concatenado: {concat}");
+
+string subst = cadena.Substring(0, 2);
+
+Console.WriteLine($"Subcadena extraida: {subst}");
